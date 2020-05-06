@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_blue"
+        android:icon="@drawable/btunconnected"
+        android:title="搜索设备"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cancel_search"
+        android:title="停止搜索"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/disabled_connected"
+        android:title="断开连接"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/copy_recived"
+        android:title="复制接收区数据"
+        app:showAsAction="never"/>
+
+</menu>
